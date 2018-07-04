@@ -67,7 +67,14 @@
             this.MenuIcon = new System.Windows.Forms.PictureBox();
             this.TopPanel = new System.Windows.Forms.Panel();
             this.SupportPanel = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
+            this.SupportOStrip = new System.Windows.Forms.Panel();
+            this.SupportOfficerLabel = new System.Windows.Forms.Label();
+            this.CustomerStrip = new System.Windows.Forms.Panel();
+            this.CustomerContactsLabel = new System.Windows.Forms.Label();
+            this.ViewHspStrip = new System.Windows.Forms.Panel();
+            this.ViewHospitalsLabel = new System.Windows.Forms.Label();
+            this.LogSupportCallsStrip = new System.Windows.Forms.Panel();
+            this.LogSupportCallsLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.dashboardPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -497,23 +504,102 @@
             // SupportPanel
             // 
             this.SupportPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.SupportPanel.Controls.Add(this.label21);
+            this.SupportPanel.Controls.Add(this.SupportOStrip);
+            this.SupportPanel.Controls.Add(this.SupportOfficerLabel);
+            this.SupportPanel.Controls.Add(this.CustomerStrip);
+            this.SupportPanel.Controls.Add(this.CustomerContactsLabel);
+            this.SupportPanel.Controls.Add(this.ViewHspStrip);
+            this.SupportPanel.Controls.Add(this.ViewHospitalsLabel);
+            this.SupportPanel.Controls.Add(this.LogSupportCallsStrip);
+            this.SupportPanel.Controls.Add(this.LogSupportCallsLabel);
             this.SupportPanel.Location = new System.Drawing.Point(204, 38);
             this.SupportPanel.Name = "SupportPanel";
             this.SupportPanel.Size = new System.Drawing.Size(808, 403);
             this.SupportPanel.TabIndex = 2;
             // 
-            // label21
+            // SupportOStrip
             // 
-            this.label21.AutoSize = true;
-            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label21.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label21.Location = new System.Drawing.Point(16, 9);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(114, 15);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Log Support Calls";
+            this.SupportOStrip.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.SupportOStrip.Location = new System.Drawing.Point(355, 27);
+            this.SupportOStrip.Name = "SupportOStrip";
+            this.SupportOStrip.Size = new System.Drawing.Size(105, 2);
+            this.SupportOStrip.TabIndex = 7;
+            // 
+            // SupportOfficerLabel
+            // 
+            this.SupportOfficerLabel.AutoSize = true;
+            this.SupportOfficerLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SupportOfficerLabel.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SupportOfficerLabel.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.SupportOfficerLabel.Location = new System.Drawing.Point(352, 8);
+            this.SupportOfficerLabel.Name = "SupportOfficerLabel";
+            this.SupportOfficerLabel.Size = new System.Drawing.Size(105, 15);
+            this.SupportOfficerLabel.TabIndex = 6;
+            this.SupportOfficerLabel.Text = "Support Officers";
+            // 
+            // CustomerStrip
+            // 
+            this.CustomerStrip.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.CustomerStrip.Location = new System.Drawing.Point(229, 27);
+            this.CustomerStrip.Name = "CustomerStrip";
+            this.CustomerStrip.Size = new System.Drawing.Size(120, 2);
+            this.CustomerStrip.TabIndex = 5;
+            // 
+            // CustomerContactsLabel
+            // 
+            this.CustomerContactsLabel.AutoSize = true;
+            this.CustomerContactsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CustomerContactsLabel.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerContactsLabel.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.CustomerContactsLabel.Location = new System.Drawing.Point(226, 8);
+            this.CustomerContactsLabel.Name = "CustomerContactsLabel";
+            this.CustomerContactsLabel.Size = new System.Drawing.Size(123, 15);
+            this.CustomerContactsLabel.TabIndex = 4;
+            this.CustomerContactsLabel.Text = "Customer Contacts";
+            this.CustomerContactsLabel.MouseLeave += new System.EventHandler(this.CustomerContactsLabel_MouseLeave);
+            this.CustomerContactsLabel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CustomerContactsLabel_MouseMove);
+            // 
+            // ViewHspStrip
+            // 
+            this.ViewHspStrip.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.ViewHspStrip.Location = new System.Drawing.Point(127, 27);
+            this.ViewHspStrip.Name = "ViewHspStrip";
+            this.ViewHspStrip.Size = new System.Drawing.Size(96, 2);
+            this.ViewHspStrip.TabIndex = 3;
+            // 
+            // ViewHospitalsLabel
+            // 
+            this.ViewHospitalsLabel.AutoSize = true;
+            this.ViewHospitalsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ViewHospitalsLabel.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewHospitalsLabel.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.ViewHospitalsLabel.Location = new System.Drawing.Point(124, 8);
+            this.ViewHospitalsLabel.Name = "ViewHospitalsLabel";
+            this.ViewHospitalsLabel.Size = new System.Drawing.Size(96, 15);
+            this.ViewHospitalsLabel.TabIndex = 2;
+            this.ViewHospitalsLabel.Text = "View Hospitals";
+            this.ViewHospitalsLabel.MouseLeave += new System.EventHandler(this.ViewHospitalsBtn_MouseLeave);
+            this.ViewHospitalsLabel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ViewHospitalsBtn_MouseMove);
+            // 
+            // LogSupportCallsStrip
+            // 
+            this.LogSupportCallsStrip.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.LogSupportCallsStrip.Location = new System.Drawing.Point(13, 27);
+            this.LogSupportCallsStrip.Name = "LogSupportCallsStrip";
+            this.LogSupportCallsStrip.Size = new System.Drawing.Size(108, 2);
+            this.LogSupportCallsStrip.TabIndex = 1;
+            // 
+            // LogSupportCallsLabel
+            // 
+            this.LogSupportCallsLabel.AutoSize = true;
+            this.LogSupportCallsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogSupportCallsLabel.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogSupportCallsLabel.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.LogSupportCallsLabel.Location = new System.Drawing.Point(10, 9);
+            this.LogSupportCallsLabel.Name = "LogSupportCallsLabel";
+            this.LogSupportCallsLabel.Size = new System.Drawing.Size(114, 15);
+            this.LogSupportCallsLabel.TabIndex = 0;
+            this.LogSupportCallsLabel.Text = "Log Support Calls";
             // 
             // DashboardMain
             // 
@@ -590,7 +676,14 @@
         private System.Windows.Forms.Label SupportLabel;
         private System.Windows.Forms.Panel TopPanel;
         private System.Windows.Forms.Panel SupportPanel;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label LogSupportCallsLabel;
+        private System.Windows.Forms.Panel SupportOStrip;
+        private System.Windows.Forms.Label SupportOfficerLabel;
+        private System.Windows.Forms.Panel CustomerStrip;
+        private System.Windows.Forms.Label CustomerContactsLabel;
+        private System.Windows.Forms.Panel ViewHspStrip;
+        private System.Windows.Forms.Label ViewHospitalsLabel;
+        private System.Windows.Forms.Panel LogSupportCallsStrip;
     }
 }
 
