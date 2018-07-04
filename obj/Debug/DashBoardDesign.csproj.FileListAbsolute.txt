@@ -1,0 +1,10 @@
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\bin\Debug\DashBoardDesign.exe.config
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\bin\Debug\DashBoardDesign.exe
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\bin\Debug\DashBoardDesign.pdb
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.Properties.Resources.resources
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.csproj.GenerateResource.cache
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.csproj.CoreCompileInputs.cache
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.exe
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.pdb
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.DashboardMain.resources
+C:\Users\Eric Watyekele\source\repos\DashBoardDesign\DashBoardDesign\obj\Debug\DashBoardDesign.csprojAssemblyReference.cache
